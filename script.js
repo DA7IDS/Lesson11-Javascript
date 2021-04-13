@@ -65,3 +65,13 @@ fruits.splice(2, 0, 'mango');
 fruits.shift();
 fruits.pop();
 console.log(fruits.length);
+
+// 9
+let newcars = ["audi", "bmw", "lexus", "volkswagen", "ferrari", "porsche", "bentley"];
+
+for (let c = 2; c < 6; c++) {
+    console.log(newcars[c])
+}
+
+let array = newcars.slice(1, 4);
+console.log(array)
