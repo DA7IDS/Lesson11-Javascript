@@ -42,4 +42,26 @@ console.log(every[0])
 console.log(every[1])
 console.log(every[2])
 console.log(every[3])
- 
+    //  7
+
+let numb = [5, 25, 89, 120, 36];
+
+numb.push('javascript', 'python');
+numb.unshift('html', 'css');
+console.log(numb);
+console.log(numb.length);
+numb.shift();
+numb.pop();
+console.log(numb);
+// 8
+
+let fruits = ['fortoxali', 'banani', 'msxali'];
+
+console.log(fruits.length);
+fruits.push('vashli', 'ananasi');
+fruits.unshift('sazamtro');
+console.log(fruits.length);
+fruits.splice(2, 0, 'mango');
+fruits.shift();
+fruits.pop();
+console.log(fruits.length);
